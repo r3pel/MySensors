@@ -17,6 +17,7 @@
  * version 2 as published by the Free Software Foundation.
  */
 
+#include <stdint.h>
 #include <time.h>
 #include <sys/time.h>
 #include <stdlib.h>
