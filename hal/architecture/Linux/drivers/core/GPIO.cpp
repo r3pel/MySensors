@@ -37,8 +37,9 @@ GPIOClass::GPIOClass()
 
 	dp = opendir("/sys/class/gpio");
 	if (dp == NULL) {
-		logError("Could not open /sys/class/gpio directory");
-		exit(1);
+//		logError("Could not open /sys/class/gpio directory");
+//		exit(1);
+return;	
 	}
 
 	lastPinNum = 0;
